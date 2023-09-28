@@ -5,7 +5,7 @@
         * at the bottom of download sql express.
         * At the end of the installation a message appears to install SQL MAGNAMENT.
         * Download and follow the steps.
-
+		
 2.-  Have visual studio 2022 installed
         * To install you must follow the following page https://visualstudio.microsoft.com/es/vs/
         * click on download community.
