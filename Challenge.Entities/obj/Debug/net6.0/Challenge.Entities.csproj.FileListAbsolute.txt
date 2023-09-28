@@ -1,0 +1,14 @@
+C:\ProyectoExamen\Challenge\Challenge.Entities\bin\Debug\net6.0\Challenge.Entities.deps.json
+C:\ProyectoExamen\Challenge\Challenge.Entities\bin\Debug\net6.0\Challenge.Entities.runtimeconfig.json
+C:\ProyectoExamen\Challenge\Challenge.Entities\bin\Debug\net6.0\Challenge.Entities.dll
+C:\ProyectoExamen\Challenge\Challenge.Entities\bin\Debug\net6.0\Challenge.Entities.pdb
+C:\ProyectoExamen\Challenge\Challenge.Entities\obj\Debug\net6.0\Challenge.Entities.csproj.AssemblyReference.cache
+C:\ProyectoExamen\Challenge\Challenge.Entities\obj\Debug\net6.0\Challenge.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoExamen\Challenge\Challenge.Entities\obj\Debug\net6.0\Challenge.Entities.AssemblyInfoInputs.cache
+C:\ProyectoExamen\Challenge\Challenge.Entities\obj\Debug\net6.0\Challenge.Entities.AssemblyInfo.cs
+C:\ProyectoExamen\Challenge\Challenge.Entities\obj\Debug\net6.0\Challenge.Entities.csproj.CoreCompileInputs.cache
+C:\ProyectoExamen\Challenge\Challenge.Entities\obj\Debug\net6.0\Challenge.Entities.dll
+C:\ProyectoExamen\Challenge\Challenge.Entities\obj\Debug\net6.0\refint\Challenge.Entities.dll
+C:\ProyectoExamen\Challenge\Challenge.Entities\obj\Debug\net6.0\Challenge.Entities.pdb
+C:\ProyectoExamen\Challenge\Challenge.Entities\obj\Debug\net6.0\Challenge.Entities.genruntimeconfig.cache
+C:\ProyectoExamen\Challenge\Challenge.Entities\obj\Debug\net6.0\ref\Challenge.Entities.dll

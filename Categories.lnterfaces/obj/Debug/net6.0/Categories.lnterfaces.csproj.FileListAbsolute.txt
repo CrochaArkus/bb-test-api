@@ -1,0 +1,15 @@
+C:\ProyectoExamen\Challenge\Categories.lnterfaces\bin\Debug\net6.0\Categories.lnterfaces.deps.json
+C:\ProyectoExamen\Challenge\Categories.lnterfaces\bin\Debug\net6.0\Categories.lnterfaces.dll
+C:\ProyectoExamen\Challenge\Categories.lnterfaces\bin\Debug\net6.0\Categories.lnterfaces.pdb
+C:\ProyectoExamen\Challenge\Categories.lnterfaces\bin\Debug\net6.0\Categories.Dtos.dll
+C:\ProyectoExamen\Challenge\Categories.lnterfaces\bin\Debug\net6.0\Categories.Dtos.pdb
+C:\ProyectoExamen\Challenge\Categories.lnterfaces\obj\Debug\net6.0\Categories.lnterfaces.csproj.AssemblyReference.cache
+C:\ProyectoExamen\Challenge\Categories.lnterfaces\obj\Debug\net6.0\Categories.lnterfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoExamen\Challenge\Categories.lnterfaces\obj\Debug\net6.0\Categories.lnterfaces.AssemblyInfoInputs.cache
+C:\ProyectoExamen\Challenge\Categories.lnterfaces\obj\Debug\net6.0\Categories.lnterfaces.AssemblyInfo.cs
+C:\ProyectoExamen\Challenge\Categories.lnterfaces\obj\Debug\net6.0\Categories.lnterfaces.csproj.CoreCompileInputs.cache
+C:\ProyectoExamen\Challenge\Categories.lnterfaces\obj\Debug\net6.0\Categories.lnterfaces.csproj.CopyComplete
+C:\ProyectoExamen\Challenge\Categories.lnterfaces\obj\Debug\net6.0\Categories.lnterfaces.dll
+C:\ProyectoExamen\Challenge\Categories.lnterfaces\obj\Debug\net6.0\refint\Categories.lnterfaces.dll
+C:\ProyectoExamen\Challenge\Categories.lnterfaces\obj\Debug\net6.0\Categories.lnterfaces.pdb
+C:\ProyectoExamen\Challenge\Categories.lnterfaces\obj\Debug\net6.0\ref\Categories.lnterfaces.dll

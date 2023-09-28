@@ -1,0 +1,12 @@
+C:\ProyectoExamen\Challenge\ExceptionCategories\bin\Debug\net6.0\ExceptionCategories.deps.json
+C:\ProyectoExamen\Challenge\ExceptionCategories\bin\Debug\net6.0\ExceptionCategories.dll
+C:\ProyectoExamen\Challenge\ExceptionCategories\bin\Debug\net6.0\ExceptionCategories.pdb
+C:\ProyectoExamen\Challenge\ExceptionCategories\obj\Debug\net6.0\ExceptionCategories.csproj.AssemblyReference.cache
+C:\ProyectoExamen\Challenge\ExceptionCategories\obj\Debug\net6.0\ExceptionCategories.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoExamen\Challenge\ExceptionCategories\obj\Debug\net6.0\ExceptionCategories.AssemblyInfoInputs.cache
+C:\ProyectoExamen\Challenge\ExceptionCategories\obj\Debug\net6.0\ExceptionCategories.AssemblyInfo.cs
+C:\ProyectoExamen\Challenge\ExceptionCategories\obj\Debug\net6.0\ExceptionCategories.csproj.CoreCompileInputs.cache
+C:\ProyectoExamen\Challenge\ExceptionCategories\obj\Debug\net6.0\ExceptionCategories.dll
+C:\ProyectoExamen\Challenge\ExceptionCategories\obj\Debug\net6.0\refint\ExceptionCategories.dll
+C:\ProyectoExamen\Challenge\ExceptionCategories\obj\Debug\net6.0\ExceptionCategories.pdb
+C:\ProyectoExamen\Challenge\ExceptionCategories\obj\Debug\net6.0\ref\ExceptionCategories.dll

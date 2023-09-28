@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "qodWNqHQlestMHeulsl1JZi7yQxt+udQep79D+g7v6QY7FzxJVjRpw28upJ42K1/BOX6Gy1sI7YaE3UslCINJQ==",
+  "success": true,
+  "projectFilePath": "C:\\ProyectoExamen\\Challenge\\Categories.Services\\Categories.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jorge Velazquez\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\Jorge Velazquez\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\Jorge Velazquez\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}

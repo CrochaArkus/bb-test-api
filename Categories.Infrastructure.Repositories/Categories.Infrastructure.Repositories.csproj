@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Categories.Dtos\Categories.Dtos.csproj" />
+    <ProjectReference Include="..\Categories.lnterfaces\Categories.lnterfaces.csproj" />
+    <ProjectReference Include="..\Challenge.Entities\Challenge.Entities.csproj" />
+    <ProjectReference Include="..\ExceptionCategories\ExceptionCategories.csproj" />
+  </ItemGroup>
+
+</Project>

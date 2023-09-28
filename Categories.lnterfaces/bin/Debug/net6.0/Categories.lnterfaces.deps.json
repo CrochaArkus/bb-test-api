@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Categories.lnterfaces/1.0.0": {
+        "dependencies": {
+          "Categories.Dtos": "1.0.0"
+        },
+        "runtime": {
+          "Categories.lnterfaces.dll": {}
+        }
+      },
+      "Categories.Dtos/1.0.0": {
+        "runtime": {
+          "Categories.Dtos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Categories.lnterfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Categories.Dtos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

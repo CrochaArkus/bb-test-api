@@ -1,0 +1,17 @@
+C:\ProyectoExamen\Challenge\Image.lnterfaces\bin\Debug\net6.0\Image.lnterfaces.deps.json
+C:\ProyectoExamen\Challenge\Image.lnterfaces\bin\Debug\net6.0\Image.lnterfaces.dll
+C:\ProyectoExamen\Challenge\Image.lnterfaces\bin\Debug\net6.0\Image.lnterfaces.pdb
+C:\ProyectoExamen\Challenge\Image.lnterfaces\bin\Debug\net6.0\Image.Dtos.dll
+C:\ProyectoExamen\Challenge\Image.lnterfaces\bin\Debug\net6.0\Image.Dtos.pdb
+C:\ProyectoExamen\Challenge\Image.lnterfaces\obj\Debug\net6.0\Image.lnterfaces.csproj.AssemblyReference.cache
+C:\ProyectoExamen\Challenge\Image.lnterfaces\obj\Debug\net6.0\Image.lnterfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoExamen\Challenge\Image.lnterfaces\obj\Debug\net6.0\Image.lnterfaces.AssemblyInfoInputs.cache
+C:\ProyectoExamen\Challenge\Image.lnterfaces\obj\Debug\net6.0\Image.lnterfaces.AssemblyInfo.cs
+C:\ProyectoExamen\Challenge\Image.lnterfaces\obj\Debug\net6.0\Image.lnterfaces.csproj.CoreCompileInputs.cache
+C:\ProyectoExamen\Challenge\Image.lnterfaces\obj\Debug\net6.0\Image.lnterfaces.csproj.CopyComplete
+C:\ProyectoExamen\Challenge\Image.lnterfaces\obj\Debug\net6.0\Image.lnterfaces.dll
+C:\ProyectoExamen\Challenge\Image.lnterfaces\obj\Debug\net6.0\refint\Image.lnterfaces.dll
+C:\ProyectoExamen\Challenge\Image.lnterfaces\obj\Debug\net6.0\Image.lnterfaces.pdb
+C:\ProyectoExamen\Challenge\Image.lnterfaces\obj\Debug\net6.0\ref\Image.lnterfaces.dll
+C:\ProyectoExamen\Challenge\Image.lnterfaces\bin\Debug\net6.0\Challenge.Entities.dll
+C:\ProyectoExamen\Challenge\Image.lnterfaces\bin\Debug\net6.0\Challenge.Entities.pdb

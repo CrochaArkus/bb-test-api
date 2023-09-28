@@ -1,0 +1,12 @@
+C:\ProyectoExamen\Challenge\Categories.Dtos\bin\Debug\net6.0\Categories.Dtos.deps.json
+C:\ProyectoExamen\Challenge\Categories.Dtos\bin\Debug\net6.0\Categories.Dtos.dll
+C:\ProyectoExamen\Challenge\Categories.Dtos\bin\Debug\net6.0\Categories.Dtos.pdb
+C:\ProyectoExamen\Challenge\Categories.Dtos\obj\Debug\net6.0\Categories.Dtos.csproj.AssemblyReference.cache
+C:\ProyectoExamen\Challenge\Categories.Dtos\obj\Debug\net6.0\Categories.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoExamen\Challenge\Categories.Dtos\obj\Debug\net6.0\Categories.Dtos.AssemblyInfoInputs.cache
+C:\ProyectoExamen\Challenge\Categories.Dtos\obj\Debug\net6.0\Categories.Dtos.AssemblyInfo.cs
+C:\ProyectoExamen\Challenge\Categories.Dtos\obj\Debug\net6.0\Categories.Dtos.csproj.CoreCompileInputs.cache
+C:\ProyectoExamen\Challenge\Categories.Dtos\obj\Debug\net6.0\Categories.Dtos.dll
+C:\ProyectoExamen\Challenge\Categories.Dtos\obj\Debug\net6.0\refint\Categories.Dtos.dll
+C:\ProyectoExamen\Challenge\Categories.Dtos\obj\Debug\net6.0\Categories.Dtos.pdb
+C:\ProyectoExamen\Challenge\Categories.Dtos\obj\Debug\net6.0\ref\Categories.Dtos.dll

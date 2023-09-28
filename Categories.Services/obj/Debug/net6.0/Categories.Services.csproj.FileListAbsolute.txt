@@ -1,0 +1,17 @@
+C:\ProyectoExamen\Challenge\Categories.Services\bin\Debug\net6.0\Categories.Services.deps.json
+C:\ProyectoExamen\Challenge\Categories.Services\bin\Debug\net6.0\Categories.Services.dll
+C:\ProyectoExamen\Challenge\Categories.Services\bin\Debug\net6.0\Categories.Services.pdb
+C:\ProyectoExamen\Challenge\Categories.Services\bin\Debug\net6.0\Categories.Dtos.dll
+C:\ProyectoExamen\Challenge\Categories.Services\bin\Debug\net6.0\Categories.lnterfaces.dll
+C:\ProyectoExamen\Challenge\Categories.Services\bin\Debug\net6.0\Categories.Dtos.pdb
+C:\ProyectoExamen\Challenge\Categories.Services\bin\Debug\net6.0\Categories.lnterfaces.pdb
+C:\ProyectoExamen\Challenge\Categories.Services\obj\Debug\net6.0\Categories.Services.csproj.AssemblyReference.cache
+C:\ProyectoExamen\Challenge\Categories.Services\obj\Debug\net6.0\Categories.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoExamen\Challenge\Categories.Services\obj\Debug\net6.0\Categories.Services.AssemblyInfoInputs.cache
+C:\ProyectoExamen\Challenge\Categories.Services\obj\Debug\net6.0\Categories.Services.AssemblyInfo.cs
+C:\ProyectoExamen\Challenge\Categories.Services\obj\Debug\net6.0\Categories.Services.csproj.CoreCompileInputs.cache
+C:\ProyectoExamen\Challenge\Categories.Services\obj\Debug\net6.0\Categories.Services.csproj.CopyComplete
+C:\ProyectoExamen\Challenge\Categories.Services\obj\Debug\net6.0\Categories.Services.dll
+C:\ProyectoExamen\Challenge\Categories.Services\obj\Debug\net6.0\refint\Categories.Services.dll
+C:\ProyectoExamen\Challenge\Categories.Services\obj\Debug\net6.0\Categories.Services.pdb
+C:\ProyectoExamen\Challenge\Categories.Services\obj\Debug\net6.0\ref\Categories.Services.dll
