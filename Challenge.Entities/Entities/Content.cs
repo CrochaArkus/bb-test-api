@@ -17,7 +17,7 @@ namespace Challenge.Entities.Entities
         [Required]
         public int id_interior_subcategory { get; set; }
         [Required]
-        public int display { get; set; }
+        public int display { get; set; } 
         [Required]
         public bool active { get; set; }
         [Required]
