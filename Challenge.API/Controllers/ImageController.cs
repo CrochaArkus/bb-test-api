@@ -81,5 +81,49 @@ namespace Challenge.API.Controllers
                 return StatusCode(data.status, data);
             }
         }
+
+        [HttpGet("Category/{categoryId}/Sucategory/{subcategoryId}/InteriorCategory/{interiorCategoryId}")]
+        public async Task<IActionResult> GetByIdCategorySubactegoryInteriorCategory(int categoryId, 
+            int subcategoryId, int interiorCategoryId)
+        {
+            DataResponse<ImageResponse> data = new DataResponse<ImageResponse>();
+            try
+            {
+                ImageResponse? response = await _imageServices.GetByIdCategorySubactegoryInteriorCategory(categoryId,
+                    subcategoryId, interiorCategoryId);
+
+                data.status = StatusCodes.Status200OK;
+                data.data = response;
+                return Ok(data);
+            }
+            catch (Exception ex)
+            {
+                data.message = ex.Message;
+                data.status = StatusCodes.Status500InternalServerError;
+                data.data = null;
+                return StatusCode(data.status, data);
+            }
+        }
+
+        [HttpGet("Category/{categoryId}")]
+        public async Task<IActionResult> GetByIdCategory(int categoryId)
+        {
+            DataResponse<ImageResponse> data = new DataResponse<ImageResponse>();
+            try
+            {
+                ImageResponse? response = await _imageServices.GetByIdCategory(categoryId);
+
+                data.status = StatusCodes.Status200OK;
+                data.data = response;
+                return Ok(data);
+            }
+            catch (Exception ex)
+            {
+                data.message = ex.Message;
+                data.status = StatusCodes.Status500InternalServerError;
+                data.data = null;
+                return StatusCode(data.status, data);
+            }
+        }
     }
 }

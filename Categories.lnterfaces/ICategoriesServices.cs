@@ -10,5 +10,8 @@ namespace Categories.lnterfaces
         Task<List<SubCategoriesResponse>> GetSubCategoriesByIdCategory(int categoryId);
         Task UpdateCategory(int categoryId, string name);
         Task UpdateSubCategory(int subCategoryId, int idCategory, string name);
+        Task<List<InteriorSubCategoriesResponse>> GetInteriorSubcategoriesByIdCategorySubCategories(int categoryId,
+        int idSubcategory);
+        Task<int> CreateInteriorSubCategory(InteriorSubcategoryRequest request);
     }
 }

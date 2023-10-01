@@ -10,13 +10,17 @@ namespace Challenge.Entities.Entities
 
         public DbSet<Categories> categories { get; set; }
         public DbSet<SubCategories> subCategories { get; set; }
+        public DbSet<InteriorSubcategoriesCategories> interiorSubCategories { get; set; }
         public DbSet<ImageUpload> imageUploads { get; set; }
+        public DbSet<Content> contents { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
+        {            
             modelBuilder.Entity<Categories>().ToTable("category");
             modelBuilder.Entity<SubCategories>().ToTable("subCategory");
+            modelBuilder.Entity<InteriorSubcategoriesCategories>().ToTable("interiorSubCategory");
             modelBuilder.Entity<ImageUpload>().ToTable("imageUpload");
+            modelBuilder.Entity<Content>().ToTable("content");
         }
     }
 }

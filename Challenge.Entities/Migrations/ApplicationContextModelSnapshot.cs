@@ -49,6 +49,44 @@ namespace Challenge.Entities.Migrations
                     b.ToTable("category", (string)null);
                 });
 
+            modelBuilder.Entity("Challenge.Entities.Entities.Content", b =>
+                {
+                    b.Property<int>("id_content")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id_content"), 1L, 1);
+
+                    b.Property<bool>("active")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("date_create")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("date_delete")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("date_update")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("delete")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("id_category")
+                        .HasColumnType("int");
+
+                    b.Property<string>("title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("unLocked")
+                        .HasColumnType("bit");
+
+                    b.HasKey("id_content");
+
+                    b.ToTable("content", (string)null);
+                });
+
             modelBuilder.Entity("Challenge.Entities.Entities.ImageUpload", b =>
                 {
                     b.Property<int>("id_image_Upload")
@@ -66,7 +104,10 @@ namespace Challenge.Entities.Migrations
                     b.Property<int>("idCategories")
                         .HasColumnType("int");
 
-                    b.Property<int>("idSubcategories")
+                    b.Property<int?>("idInteriorSubcategories")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("idSubcategories")
                         .HasColumnType("int");
 
                     b.Property<byte[]>("image_Data")
@@ -77,12 +118,48 @@ namespace Challenge.Entities.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("update_date")
+                    b.Property<DateTime?>("update_date")
                         .HasColumnType("datetime2");
 
                     b.HasKey("id_image_Upload");
 
                     b.ToTable("imageUpload", (string)null);
+                });
+
+            modelBuilder.Entity("Challenge.Entities.Entities.InteriorSubcategoriesCategories", b =>
+                {
+                    b.Property<int>("id_interior_subcategory")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id_interior_subcategory"), 1L, 1);
+
+                    b.Property<bool>("active")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("create_date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("id_catgeory")
+                        .HasColumnType("int");
+
+                    b.Property<int>("id_subcategory")
+                        .HasColumnType("int");
+
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("update_date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("url_interior_Subcategory")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id_interior_subcategory");
+
+                    b.ToTable("interiorSubCategory", (string)null);
                 });
 
             modelBuilder.Entity("Challenge.Entities.Entities.SubCategories", b =>
@@ -108,6 +185,10 @@ namespace Challenge.Entities.Migrations
 
                     b.Property<DateTime>("update_date")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("urlSubcategory")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("id_subcategories");
 

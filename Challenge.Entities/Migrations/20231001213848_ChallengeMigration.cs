@@ -26,22 +26,62 @@ namespace Challenge.Entities.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "content",
+                columns: table => new
+                {
+                    id_content = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    title = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    id_category = table.Column<int>(type: "int", nullable: false),
+                    active = table.Column<bool>(type: "bit", nullable: false),
+                    unLocked = table.Column<bool>(type: "bit", nullable: false),
+                    delete = table.Column<bool>(type: "bit", nullable: false),
+                    date_create = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    date_update = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    date_delete = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_content", x => x.id_content);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "imageUpload",
                 columns: table => new
                 {
                     id_image_Upload = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    idSubcategories = table.Column<int>(type: "int", nullable: false),
+                    idInteriorSubcategories = table.Column<int>(type: "int", nullable: true),
+                    idSubcategories = table.Column<int>(type: "int", nullable: true),
                     idCategories = table.Column<int>(type: "int", nullable: false),
                     image_Data = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
                     name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    active = table.Column<bool>(type: "bit", nullable: false),
+                    create_date = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    update_date = table.Column<DateTime>(type: "datetime2", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_imageUpload", x => x.id_image_Upload);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "interiorSubCategory",
+                columns: table => new
+                {
+                    id_interior_subcategory = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    id_catgeory = table.Column<int>(type: "int", nullable: false),
+                    id_subcategory = table.Column<int>(type: "int", nullable: false),
+                    name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    url_interior_Subcategory = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     active = table.Column<bool>(type: "bit", nullable: false),
                     create_date = table.Column<DateTime>(type: "datetime2", nullable: false),
                     update_date = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_imageUpload", x => x.id_image_Upload);
+                    table.PrimaryKey("PK_interiorSubCategory", x => x.id_interior_subcategory);
                 });
 
             migrationBuilder.CreateTable(
@@ -52,6 +92,7 @@ namespace Challenge.Entities.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     id_categories = table.Column<int>(type: "int", nullable: false),
                     name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    urlSubcategory = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     active = table.Column<bool>(type: "bit", nullable: false),
                     create_date = table.Column<DateTime>(type: "datetime2", nullable: false),
                     update_date = table.Column<DateTime>(type: "datetime2", nullable: false)
@@ -76,7 +117,13 @@ namespace Challenge.Entities.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "content");
+
+            migrationBuilder.DropTable(
                 name: "imageUpload");
+
+            migrationBuilder.DropTable(
+                name: "interiorSubCategory");
 
             migrationBuilder.DropTable(
                 name: "subCategory");

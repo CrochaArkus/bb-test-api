@@ -28,6 +28,22 @@ namespace Categories.Infrastructure.Repositories
             }
         }
 
+        public async Task<int> CreateInteriorSubCategory(int idCategoria,int idSubcategory, string name)
+        {
+            try
+            {
+                InteriorSubcategoriesCategories InteriorSubcategory = SetInteriorSubacategoria(idCategoria, 
+                    idSubcategory, name);
+                _context.interiorSubCategories.Add(InteriorSubcategory);
+                await _context.SaveChangesAsync();
+                return InteriorSubcategory.id_interior_subcategory;
+            }
+            catch (Exception)
+            {
+                throw new ExceptionCretaetInteriorSubcategories();
+            }
+        }
+
         public async Task<int> CreateSubCategory(int idCategoria, string name)
         {
             try
@@ -52,6 +68,14 @@ namespace Categories.Infrastructure.Repositories
         {
             List<SubCategories> categories = await _context.subCategories.Where(x => x.active == true && x.id_categories == categoryId).ToListAsync();
             return MapperSubCategoriesSubCategoriesResponse(categories);
+        }
+
+        public async Task<List<InteriorSubCategoriesResponse>> GetInteriorSubcategoriesByIdCategorySubCategories(int categoryId,
+            int idSubcategory )
+        {
+            List<InteriorSubcategoriesCategories> categories = await _context.interiorSubCategories.Where(x => x.active == true
+            && x.id_catgeory == categoryId && x.id_subcategory == idSubcategory).ToListAsync();
+            return MapperInteriorSubCategoriesInteriorSubCategoriesResponse(categories);
         }
 
         public async Task UpdateCategory(int categoryId, string name) 
@@ -115,6 +139,19 @@ namespace Categories.Infrastructure.Repositories
 
             return subCategory;
         }
+        private InteriorSubcategoriesCategories SetInteriorSubacategoria(int idCategoria,int idSubcategory, string name)
+        {
+            InteriorSubcategoriesCategories interiorSubCategory = new InteriorSubcategoriesCategories();
+
+            interiorSubCategory.id_catgeory = idCategoria;
+            interiorSubCategory.id_subcategory = idSubcategory;
+            interiorSubCategory.name = name;
+            interiorSubCategory.create_date = DateTime.Now;
+            interiorSubCategory.active = true;
+
+            return interiorSubCategory;
+        }
+        
 
         private Challenge.Entities.Entities.Categories SetCategories(string name)
         {
@@ -132,16 +169,32 @@ namespace Categories.Infrastructure.Repositories
             {
                 idCategories = subCategory.id_categories,
                 idSubcategories = subCategory.id_subcategories,
-                name = subCategory.name
+                name = subCategory.name,
+                acvive = subCategory.active
             }).ToList();
-        }        
+        }
+
+        private List<InteriorSubCategoriesResponse> MapperInteriorSubCategoriesInteriorSubCategoriesResponse(List<InteriorSubcategoriesCategories>
+            interiorSubCategories)
+        {
+            return interiorSubCategories.Select(subCategory => new InteriorSubCategoriesResponse
+            {
+                idCategories = subCategory.id_catgeory,
+                idSubcategories = subCategory.id_subcategory,
+                idInteriorSubcategories = subCategory.id_interior_subcategory,
+                name = subCategory.name,
+                acvive = subCategory.active
+            }).ToList();
+        }
 
         private List<CategoriesResponse> MapperCategoriesCategoriesResponse(List<Challenge.Entities.Entities.Categories> categories)
         {
             return categories.Select(categories => new CategoriesResponse
             {
                 Id = categories.id_categories,               
-                name = categories.name
+                name = categories.name,
+                active= categories.active
+                
             }).ToList();            
         }
 

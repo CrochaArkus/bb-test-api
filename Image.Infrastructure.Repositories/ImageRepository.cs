@@ -32,8 +32,23 @@ namespace Image.Infrastructure.Repositories
         public async Task<ImageResponse?> GetByIdCategoryIdSubcategory(int categoryId, int subcategoryId)
         {
             ImageUpload? image = await _context.imageUploads.FirstOrDefaultAsync(x => x.active == true
-            && x.idSubcategories == subcategoryId && x.idCategories == categoryId);
+            && x.idSubcategories == subcategoryId && x.idCategories == categoryId && x.idInteriorSubcategories == null);
 
+            return MapperImage(image);
+        }
+
+        public async Task<ImageResponse?> GetByIdCategory(int categoryId)
+        {
+            ImageUpload? image = await _context.imageUploads.FirstOrDefaultAsync(x => x.active == true 
+            && x.idCategories == categoryId && x.idSubcategories == null && x.idInteriorSubcategories == null);
+            return MapperImage(image);
+        }
+
+        public async Task<ImageResponse?> GetByIdCategorySubactegoryInteriorCategory(int categoryId,
+            int subcategoryId, int interiorSubcategoryId)
+        {
+            ImageUpload? image = await _context.imageUploads.FirstOrDefaultAsync(x => x.active == true
+            && x.idSubcategories == subcategoryId && x.idCategories == categoryId && x.idInteriorSubcategories == interiorSubcategoryId);
             return MapperImage(image);
         }
 
@@ -48,7 +63,8 @@ namespace Image.Infrastructure.Repositories
             {
                 imageId = request.id_image_Upload,
                 nameImage = request.name,
-                imagenFile = imageData
+                imagenFile = imageData,
+                active = request.active
             };
         }
 
@@ -56,7 +72,9 @@ namespace Image.Infrastructure.Repositories
         {
             return new ImageUpload()
             {
-                idSubcategories = request.subCategoryId,
+                idInteriorSubcategories = request?.interiorSubCategoryId != null 
+                 && request?.subCategoryId != null ? request?.interiorSubCategoryId : null,
+                idSubcategories = request?.subCategoryId != null ? request.subCategoryId : null,
                 idCategories = request.categoryId,
                 image_Data = imageData,
                 name = request.nameImage,

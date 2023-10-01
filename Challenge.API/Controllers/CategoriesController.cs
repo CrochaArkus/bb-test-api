@@ -68,6 +68,34 @@ namespace Challenge.API.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, data);
             }
         }
+
+        [HttpPost("Create/Interior/Sub")]
+        public async Task<IActionResult> CreateSInteriorubCategories(InteriorSubcategoryRequest request)
+        {
+            DataResponse<int> data = new DataResponse<int>();
+            try
+            {
+                int id = await _categoriesServices.CreateInteriorSubCategory(request);
+
+                data.status = StatusCodes.Status200OK;
+                data.data = id;
+                return Ok(data);
+            }
+            catch (ExceptionCretaetInteriorSubcategories ex) 
+            {
+                data.message = ex.Message;
+                data.status = StatusCodes.Status400BadRequest;
+                data.data = 0;
+                return StatusCode(StatusCodes.Status400BadRequest, data);
+            }
+            catch (Exception ex)
+            {
+                data.message = ex.Message;
+                data.status = StatusCodes.Status500InternalServerError;
+                data.data = 0;
+                return StatusCode(StatusCodes.Status500InternalServerError, data);
+            }
+        }
         [HttpGet("All")]
         public async Task<IActionResult> GetAllCategories()
         {
@@ -100,6 +128,26 @@ namespace Challenge.API.Controllers
                 data.data = subCategories;
                 return Ok(data);
             }            
+            catch (Exception ex)
+            {
+                data.message = ex.Message;
+                data.status = StatusCodes.Status500InternalServerError;
+                data.data = null;
+                return StatusCode(StatusCodes.Status500InternalServerError, data);
+            }
+        }
+        [HttpGet("{categoryId}/Sub/{subcategoryId}/interior")]
+        public async Task<IActionResult> GetSubCategoriesByIdCategory(int categoryId, int subcategoryId)
+        {
+            DataResponse<List<InteriorSubCategoriesResponse>> data = new DataResponse<List<InteriorSubCategoriesResponse>>();
+            try
+            {
+                List<InteriorSubCategoriesResponse> subCategories = await _categoriesServices.GetInteriorSubcategoriesByIdCategorySubCategories(categoryId, subcategoryId);
+
+                data.status = StatusCodes.Status200OK;
+                data.data = subCategories;
+                return Ok(data);
+            }
             catch (Exception ex)
             {
                 data.message = ex.Message;

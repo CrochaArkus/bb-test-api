@@ -11,7 +11,8 @@ namespace Challenge.Entities.Entities
         [Required]       
         public int id_categories { get; set; }
         [Required]        
-        public string name { get; set; }
+        public string name { get; set; }        
+        public string urlSubcategory { get; set; }
         [Required]
         public bool active { get; set; }
         [Required]
