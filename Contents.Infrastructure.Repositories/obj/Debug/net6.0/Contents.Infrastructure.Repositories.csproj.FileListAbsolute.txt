@@ -1,0 +1,12 @@
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\bin\Debug\net6.0\Contents.Infrastructure.Repositories.deps.json
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\bin\Debug\net6.0\Contents.Infrastructure.Repositories.dll
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\bin\Debug\net6.0\Contents.Infrastructure.Repositories.pdb
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\obj\Debug\net6.0\Contents.Infrastructure.Repositories.csproj.AssemblyReference.cache
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\obj\Debug\net6.0\Contents.Infrastructure.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\obj\Debug\net6.0\Contents.Infrastructure.Repositories.AssemblyInfoInputs.cache
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\obj\Debug\net6.0\Contents.Infrastructure.Repositories.AssemblyInfo.cs
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\obj\Debug\net6.0\Contents.Infrastructure.Repositories.csproj.CoreCompileInputs.cache
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\obj\Debug\net6.0\Contents.Infrastructure.Repositories.dll
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\obj\Debug\net6.0\refint\Contents.Infrastructure.Repositories.dll
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\obj\Debug\net6.0\Contents.Infrastructure.Repositories.pdb
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\obj\Debug\net6.0\ref\Contents.Infrastructure.Repositories.dll

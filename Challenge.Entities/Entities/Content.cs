@@ -9,15 +9,7 @@ namespace Challenge.Entities.Entities
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int id_content { get; set; }
         [Required]
-        public string title { get; set; }
-        [Required]
-        public int id_category { get; set; }
-        [Required]
-        public int id_subcategory { get; set; }
-        [Required]
-        public int id_interior_subcategory { get; set; }
-        [Required]
-        public int display { get; set; } 
+        public string title { get; set; }   
         [Required]
         public bool active { get; set; }
         [Required]

@@ -32,10 +32,6 @@ namespace Challenge.Entities.Migrations
                     id_content = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     title = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    id_category = table.Column<int>(type: "int", nullable: false),
-                    id_subcategory = table.Column<int>(type: "int", nullable: false),
-                    id_interior_subcategory = table.Column<int>(type: "int", nullable: false),
-                    display = table.Column<int>(type: "int", nullable: false),
                     active = table.Column<bool>(type: "bit", nullable: false),
                     unLocked = table.Column<bool>(type: "bit", nullable: false),
                     delete = table.Column<bool>(type: "bit", nullable: false),

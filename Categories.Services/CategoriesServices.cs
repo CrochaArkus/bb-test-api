@@ -41,7 +41,6 @@ namespace Categories.Services
             magnament.categoriesResponse = con;
             return magnament;
         }
-
         private async Task<ContenCategoriesResponse> CreateContenCategoriesResponse(CategoriesResponse category)
         {
             ContenCategoriesResponse categoriesResponse = new ContenCategoriesResponse();
@@ -61,7 +60,6 @@ namespace Categories.Services
             categoriesResponse.contentSubcategoriesResponse = contentSubcategories;
             return categoriesResponse;
         }
-
         private async Task<ContentSubcategoriesResponse> CreateContentSubcategoriesResponse(SubCategoriesResponse subCategory)
         {
             ContentSubcategoriesResponse contentSubcategoriesResponse = new ContentSubcategoriesResponse();

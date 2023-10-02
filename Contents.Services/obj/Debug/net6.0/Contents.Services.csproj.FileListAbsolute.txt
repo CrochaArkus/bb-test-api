@@ -1,0 +1,12 @@
+C:\ProyectoExamen\Challenge\Contents.Services\bin\Debug\net6.0\Contents.Services.deps.json
+C:\ProyectoExamen\Challenge\Contents.Services\bin\Debug\net6.0\Contents.Services.dll
+C:\ProyectoExamen\Challenge\Contents.Services\bin\Debug\net6.0\Contents.Services.pdb
+C:\ProyectoExamen\Challenge\Contents.Services\obj\Debug\net6.0\Contents.Services.csproj.AssemblyReference.cache
+C:\ProyectoExamen\Challenge\Contents.Services\obj\Debug\net6.0\Contents.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoExamen\Challenge\Contents.Services\obj\Debug\net6.0\Contents.Services.AssemblyInfoInputs.cache
+C:\ProyectoExamen\Challenge\Contents.Services\obj\Debug\net6.0\Contents.Services.AssemblyInfo.cs
+C:\ProyectoExamen\Challenge\Contents.Services\obj\Debug\net6.0\Contents.Services.csproj.CoreCompileInputs.cache
+C:\ProyectoExamen\Challenge\Contents.Services\obj\Debug\net6.0\Contents.Services.dll
+C:\ProyectoExamen\Challenge\Contents.Services\obj\Debug\net6.0\refint\Contents.Services.dll
+C:\ProyectoExamen\Challenge\Contents.Services\obj\Debug\net6.0\Contents.Services.pdb
+C:\ProyectoExamen\Challenge\Contents.Services\obj\Debug\net6.0\ref\Contents.Services.dll
