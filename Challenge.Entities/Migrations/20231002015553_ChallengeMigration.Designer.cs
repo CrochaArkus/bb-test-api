@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Challenge.Entities.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20231001213848_ChallengeMigration")]
+    [Migration("20231002015553_ChallengeMigration")]
     partial class ChallengeMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -74,7 +74,16 @@ namespace Challenge.Entities.Migrations
                     b.Property<bool>("delete")
                         .HasColumnType("bit");
 
+                    b.Property<int>("display")
+                        .HasColumnType("int");
+
                     b.Property<int>("id_category")
+                        .HasColumnType("int");
+
+                    b.Property<int>("id_interior_subcategory")
+                        .HasColumnType("int");
+
+                    b.Property<int>("id_subcategory")
                         .HasColumnType("int");
 
                     b.Property<string>("title")
@@ -156,7 +165,6 @@ namespace Challenge.Entities.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("url_interior_Subcategory")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("id_interior_subcategory");

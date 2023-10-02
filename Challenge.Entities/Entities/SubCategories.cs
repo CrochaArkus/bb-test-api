@@ -12,7 +12,7 @@ namespace Challenge.Entities.Entities
         public int id_categories { get; set; }
         [Required]        
         public string name { get; set; }        
-        public string urlSubcategory { get; set; }
+        public string urlSubcategory { get; set; } = string.Empty;
         [Required]
         public bool active { get; set; }
         [Required]

@@ -3,6 +3,7 @@ using Categories.lnterfaces;
 using Challenge.Entities.Entities;
 using ExceptionCategories;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace Categories.Infrastructure.Repositories
 {
@@ -60,7 +61,7 @@ namespace Categories.Infrastructure.Repositories
         }
         public async Task<List<CategoriesResponse>> GetAllCategories()
         {
-            Challenge.Entities.Entities.Categories[] categories = await _context.categories.Where(x => x.active == true).ToArrayAsync();
+            Challenge.Entities.Entities.Categories[] categories = await _context.categories.ToArrayAsync();
             return MapperCategoriesCategoriesResponse(categories.ToList());
         }
 
@@ -77,6 +78,7 @@ namespace Categories.Infrastructure.Repositories
             && x.id_catgeory == categoryId && x.id_subcategory == idSubcategory).ToListAsync();
             return MapperInteriorSubCategoriesInteriorSubCategoriesResponse(categories);
         }
+        
 
         public async Task UpdateCategory(int categoryId, string name) 
         {
@@ -127,6 +129,8 @@ namespace Categories.Infrastructure.Repositories
                 throw new ExceptionUpdateSubCategories();
             }
         }
+
+        
 
         private SubCategories SetSubacategoria(int idCategoria, string name)
         {

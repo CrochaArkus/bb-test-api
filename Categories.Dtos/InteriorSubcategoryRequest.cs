@@ -10,5 +10,6 @@ namespace Categories.Dtos
         public int categoryId { get; set; }
         [Required]
         public int subCategoryId { get; set; }
+        public string? urlSubcategory { get; set; } = "";
     }
 }

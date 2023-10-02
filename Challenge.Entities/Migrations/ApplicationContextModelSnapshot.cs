@@ -72,7 +72,16 @@ namespace Challenge.Entities.Migrations
                     b.Property<bool>("delete")
                         .HasColumnType("bit");
 
+                    b.Property<int>("display")
+                        .HasColumnType("int");
+
                     b.Property<int>("id_category")
+                        .HasColumnType("int");
+
+                    b.Property<int>("id_interior_subcategory")
+                        .HasColumnType("int");
+
+                    b.Property<int>("id_subcategory")
                         .HasColumnType("int");
 
                     b.Property<string>("title")
@@ -154,7 +163,6 @@ namespace Challenge.Entities.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("url_interior_Subcategory")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("id_interior_subcategory");

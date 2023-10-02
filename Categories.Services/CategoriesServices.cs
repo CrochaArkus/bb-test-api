@@ -25,5 +25,54 @@ namespace Categories.Services
         int idSubcategory) =>
              await _categoriesRepository.GetInteriorSubcategoriesByIdCategorySubCategories(categoryId,
                  idSubcategory);
+
+        public async Task<ManageContetntCategories> GetContentCategories()
+        {
+            List<CategoriesResponse> categories = await _categoriesRepository.GetAllCategories();
+            List<ContenCategoriesResponse> con = new List<ContenCategoriesResponse>();
+            ManageContetntCategories magnament = new ManageContetntCategories();
+
+            foreach (CategoriesResponse category in categories)
+            {
+                ContenCategoriesResponse categoriesResponse = await CreateContenCategoriesResponse(category);
+                con.Add(categoriesResponse);
+            }
+
+            magnament.categoriesResponse = con;
+            return magnament;
+        }
+
+        private async Task<ContenCategoriesResponse> CreateContenCategoriesResponse(CategoriesResponse category)
+        {
+            ContenCategoriesResponse categoriesResponse = new ContenCategoriesResponse();
+            categoriesResponse.active = category.active;
+            categoriesResponse.IdCategory = category.Id;
+            categoriesResponse.name= category.name;
+            List<SubCategoriesResponse> subCategories = await GetSubCategoriesByIdCategory(category.Id);
+
+            List<ContentSubcategoriesResponse> contentSubcategories = new List<ContentSubcategoriesResponse>();
+
+            foreach (SubCategoriesResponse subCategory in subCategories)
+            {
+                ContentSubcategoriesResponse contentSubcategoriesResponse = await CreateContentSubcategoriesResponse(subCategory);
+                contentSubcategories.Add(contentSubcategoriesResponse);
+            }
+
+            categoriesResponse.contentSubcategoriesResponse = contentSubcategories;
+            return categoriesResponse;
+        }
+
+        private async Task<ContentSubcategoriesResponse> CreateContentSubcategoriesResponse(SubCategoriesResponse subCategory)
+        {
+            ContentSubcategoriesResponse contentSubcategoriesResponse = new ContentSubcategoriesResponse();
+            contentSubcategoriesResponse.idSubcategories = subCategory.idSubcategories;
+            contentSubcategoriesResponse.name = subCategory.name;
+            contentSubcategoriesResponse.acvive = subCategory.acvive;
+            List<InteriorSubCategoriesResponse> subCategoriesResponses = await GetInteriorSubcategoriesByIdCategorySubCategories((int)subCategory.idCategories, subCategory.idSubcategories);
+
+            contentSubcategoriesResponse.interiorSubCategoriesResponse = subCategoriesResponses;
+            return contentSubcategoriesResponse;
+        }
+
     }   
 }

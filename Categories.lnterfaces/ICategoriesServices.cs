@@ -13,5 +13,6 @@ namespace Categories.lnterfaces
         Task<List<InteriorSubCategoriesResponse>> GetInteriorSubcategoriesByIdCategorySubCategories(int categoryId,
         int idSubcategory);
         Task<int> CreateInteriorSubCategory(InteriorSubcategoryRequest request);
+        Task<ManageContetntCategories> GetContentCategories();
     }
 }

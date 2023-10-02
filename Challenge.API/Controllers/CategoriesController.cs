@@ -136,6 +136,7 @@ namespace Challenge.API.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, data);
             }
         }
+
         [HttpGet("{categoryId}/Sub/{subcategoryId}/interior")]
         public async Task<IActionResult> GetSubCategoriesByIdCategory(int categoryId, int subcategoryId)
         {
@@ -146,6 +147,26 @@ namespace Challenge.API.Controllers
 
                 data.status = StatusCodes.Status200OK;
                 data.data = subCategories;
+                return Ok(data);
+            }
+            catch (Exception ex)
+            {
+                data.message = ex.Message;
+                data.status = StatusCodes.Status500InternalServerError;
+                data.data = null;
+                return StatusCode(StatusCodes.Status500InternalServerError, data);
+            }
+        }
+        [HttpGet("Magnaged/Content")]
+        public async Task<IActionResult> GetManagedContent()
+        {
+            DataResponse<ManageContetntCategories> data = new DataResponse<ManageContetntCategories>();
+            try
+            {
+                ManageContetntCategories content = await _categoriesServices.GetContentCategories();
+
+                data.status = StatusCodes.Status200OK;
+                data.data = content;
                 return Ok(data);
             }
             catch (Exception ex)

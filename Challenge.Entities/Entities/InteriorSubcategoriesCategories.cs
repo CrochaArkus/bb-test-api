@@ -14,7 +14,7 @@ namespace Challenge.Entities.Entities
         public int id_subcategory { get; set; }
         [Required]
         public string name { get; set; }
-        public string url_interior_Subcategory { get; set; }
+        public string? url_interior_Subcategory { get; set; } = string.Empty;
         [Required]
         public bool active { get; set; }
         [Required]
