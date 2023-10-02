@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Challenge.Entities.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20231002043134_ChallengeMigration")]
+    [Migration("20231002061406_ChallengeMigration")]
     partial class ChallengeMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,6 +49,24 @@ namespace Challenge.Entities.Migrations
                     b.HasKey("id_categories");
 
                     b.ToTable("category", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            id_categories = 1,
+                            active = true,
+                            create_date = new DateTime(2023, 10, 2, 0, 14, 5, 957, DateTimeKind.Local).AddTicks(2079),
+                            name = "Marketing",
+                            update_date = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            id_categories = 2,
+                            active = true,
+                            create_date = new DateTime(2023, 10, 2, 0, 14, 5, 957, DateTimeKind.Local).AddTicks(2221),
+                            name = "Products",
+                            update_date = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        });
                 });
 
             modelBuilder.Entity("Challenge.Entities.Entities.Content", b =>

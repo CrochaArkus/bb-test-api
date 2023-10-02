@@ -47,6 +47,24 @@ namespace Challenge.Entities.Migrations
                     b.HasKey("id_categories");
 
                     b.ToTable("category", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            id_categories = 1,
+                            active = true,
+                            create_date = new DateTime(2023, 10, 2, 0, 14, 5, 957, DateTimeKind.Local).AddTicks(2079),
+                            name = "Marketing",
+                            update_date = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            id_categories = 2,
+                            active = true,
+                            create_date = new DateTime(2023, 10, 2, 0, 14, 5, 957, DateTimeKind.Local).AddTicks(2221),
+                            name = "Products",
+                            update_date = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        });
                 });
 
             modelBuilder.Entity("Challenge.Entities.Entities.Content", b =>

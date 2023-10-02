@@ -123,6 +123,16 @@ namespace Challenge.Entities.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.InsertData(
+                table: "category",
+                columns: new[] { "id_categories", "active", "create_date", "name", "update_date" },
+                values: new object[] { 1, true, new DateTime(2023, 10, 2, 0, 14, 5, 957, DateTimeKind.Local).AddTicks(2079), "Marketing", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) });
+
+            migrationBuilder.InsertData(
+                table: "category",
+                columns: new[] { "id_categories", "active", "create_date", "name", "update_date" },
+                values: new object[] { 2, true, new DateTime(2023, 10, 2, 0, 14, 5, 957, DateTimeKind.Local).AddTicks(2221), "Products", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) });
+
             migrationBuilder.CreateIndex(
                 name: "IX_subCategory_id_categories",
                 table: "subCategory",

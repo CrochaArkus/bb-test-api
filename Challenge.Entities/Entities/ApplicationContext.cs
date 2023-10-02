@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Challenge.Entities.Configuration;
+using Microsoft.EntityFrameworkCore;
 
 namespace Challenge.Entities.Entities
 {
@@ -24,6 +25,7 @@ namespace Challenge.Entities.Entities
             modelBuilder.Entity<ImageUpload>().ToTable("imageUpload");
             modelBuilder.Entity<Content>().ToTable("content");
             modelBuilder.Entity<MagnamentContentsCategories>().ToTable("magnamentContentCategory");
+            modelBuilder.ApplyConfiguration(new CategoriesConfiguration());
         }
     }
 }
