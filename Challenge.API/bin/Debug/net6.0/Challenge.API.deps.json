@@ -13,6 +13,9 @@
           "Categories.Services": "1.0.0",
           "Categories.lnterfaces": "1.0.0",
           "Challenge.Entities": "1.0.0",
+          "Contents.Infrastructure.Repositories": "1.0.0",
+          "Contents.Services": "1.0.0",
+          "Contents.lnterfaces": "1.0.0",
           "ExceptionCategories": "1.0.0",
           "ExceptionImages": "1.0.0",
           "Image.Dtos": "1.0.0",
@@ -544,9 +547,47 @@
           "Challenge.Entities.dll": {}
         }
       },
+      "Content.Dtos/1.0.0": {
+        "runtime": {
+          "Content.Dtos.dll": {}
+        }
+      },
+      "Contents.Infrastructure.Repositories/1.0.0": {
+        "dependencies": {
+          "Challenge.Entities": "1.0.0",
+          "Content.Dtos": "1.0.0",
+          "Contents.lnterfaces": "1.0.0",
+          "ExceptionContents": "1.0.0"
+        },
+        "runtime": {
+          "Contents.Infrastructure.Repositories.dll": {}
+        }
+      },
+      "Contents.lnterfaces/1.0.0": {
+        "dependencies": {
+          "Challenge.Entities": "1.0.0",
+          "Content.Dtos": "1.0.0"
+        },
+        "runtime": {
+          "Contents.lnterfaces.dll": {}
+        }
+      },
+      "Contents.Services/1.0.0": {
+        "dependencies": {
+          "Contents.lnterfaces": "1.0.0"
+        },
+        "runtime": {
+          "Contents.Services.dll": {}
+        }
+      },
       "ExceptionCategories/1.0.0": {
         "runtime": {
           "ExceptionCategories.dll": {}
+        }
+      },
+      "ExceptionContents/1.0.0": {
+        "runtime": {
+          "ExceptionContents.dll": {}
         }
       },
       "ExceptionImages/1.0.0": {
@@ -963,7 +1004,32 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Content.Dtos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contents.Infrastructure.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contents.lnterfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contents.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "ExceptionCategories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExceptionContents/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

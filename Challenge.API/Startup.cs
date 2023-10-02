@@ -2,6 +2,9 @@
 using Categories.lnterfaces;
 using Categories.Services;
 using Challenge.Entities.Entities;
+using Contents.Infrastructure.Repositories;
+using Contents.lnterfaces;
+using Contents.Services;
 using Image.Infrastructure.Repositories;
 using Image.lnterfaces;
 using Image.Services;
@@ -23,9 +26,11 @@ namespace Challenge.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<ICategoriesRepository, CategoriesRepository>();
-            services.AddScoped<ICategoriesServices, CategoriesServices>();
             services.AddScoped<IImageRepository, ImageRepository>();
+            services.AddScoped<IContentsRespository, ContentsRespository>();
+            services.AddScoped<ICategoriesServices, CategoriesServices>();            
             services.AddScoped<IImagesServices, ImagesServices>();
+            services.AddScoped<IContentsServices, ContentsServices>();
 
             string SqlConnectionStr = Configuration.GetConnectionString("ChallegeConnection");
             services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(SqlConnectionStr));

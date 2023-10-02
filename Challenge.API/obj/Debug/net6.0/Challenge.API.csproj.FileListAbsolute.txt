@@ -88,3 +88,13 @@ C:\ProyectoExamen\Challenge\Challenge.API\bin\Debug\net6.0\Image.Dtos.pdb
 C:\ProyectoExamen\Challenge\Challenge.API\bin\Debug\net6.0\Image.Infrastructure.Repositories.pdb
 C:\ProyectoExamen\Challenge\Challenge.API\bin\Debug\net6.0\Image.lnterfaces.pdb
 C:\ProyectoExamen\Challenge\Challenge.API\bin\Debug\net6.0\Image.Services.pdb
+C:\ProyectoExamen\Challenge\Challenge.API\bin\Debug\net6.0\Content.Dtos.dll
+C:\ProyectoExamen\Challenge\Challenge.API\bin\Debug\net6.0\Contents.Infrastructure.Repositories.dll
+C:\ProyectoExamen\Challenge\Challenge.API\bin\Debug\net6.0\Contents.lnterfaces.dll
+C:\ProyectoExamen\Challenge\Challenge.API\bin\Debug\net6.0\Contents.Services.dll
+C:\ProyectoExamen\Challenge\Challenge.API\bin\Debug\net6.0\ExceptionContents.dll
+C:\ProyectoExamen\Challenge\Challenge.API\bin\Debug\net6.0\Contents.Infrastructure.Repositories.pdb
+C:\ProyectoExamen\Challenge\Challenge.API\bin\Debug\net6.0\Contents.lnterfaces.pdb
+C:\ProyectoExamen\Challenge\Challenge.API\bin\Debug\net6.0\Contents.Services.pdb
+C:\ProyectoExamen\Challenge\Challenge.API\bin\Debug\net6.0\Content.Dtos.pdb
+C:\ProyectoExamen\Challenge\Challenge.API\bin\Debug\net6.0\ExceptionContents.pdb

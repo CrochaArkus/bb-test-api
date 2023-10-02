@@ -63,10 +63,10 @@ namespace Challenge.Entities.Migrations
                     b.Property<DateTime>("date_create")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("date_delete")
+                    b.Property<DateTime?>("date_delete")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("date_update")
+                    b.Property<DateTime?>("date_update")
                         .HasColumnType("datetime2");
 
                     b.Property<bool>("delete")
@@ -156,6 +156,31 @@ namespace Challenge.Entities.Migrations
                     b.HasKey("id_interior_subcategory");
 
                     b.ToTable("interiorSubCategory", (string)null);
+                });
+
+            modelBuilder.Entity("Challenge.Entities.Entities.MagnamentContentsCategories", b =>
+                {
+                    b.Property<int>("id_magnament_content_categories")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id_magnament_content_categories"), 1L, 1);
+
+                    b.Property<int>("id_categories")
+                        .HasColumnType("int");
+
+                    b.Property<int>("id_content")
+                        .HasColumnType("int");
+
+                    b.Property<int>("id_interior_subcategories")
+                        .HasColumnType("int");
+
+                    b.Property<int>("id_subcategories")
+                        .HasColumnType("int");
+
+                    b.HasKey("id_magnament_content_categories");
+
+                    b.ToTable("magnamentContentCategory", (string)null);
                 });
 
             modelBuilder.Entity("Challenge.Entities.Entities.SubCategories", b =>

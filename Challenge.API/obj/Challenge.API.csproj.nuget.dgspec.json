@@ -343,6 +343,15 @@
               "C:\\ProyectoExamen\\Challenge\\Challenge.Entities\\Challenge.Entities.csproj": {
                 "projectPath": "C:\\ProyectoExamen\\Challenge\\Challenge.Entities\\Challenge.Entities.csproj"
               },
+              "C:\\ProyectoExamen\\Challenge\\Contents.Infrastructure.Repositories\\Contents.Infrastructure.Repositories.csproj": {
+                "projectPath": "C:\\ProyectoExamen\\Challenge\\Contents.Infrastructure.Repositories\\Contents.Infrastructure.Repositories.csproj"
+              },
+              "C:\\ProyectoExamen\\Challenge\\Contents.lnterfaces\\Contents.lnterfaces.csproj": {
+                "projectPath": "C:\\ProyectoExamen\\Challenge\\Contents.lnterfaces\\Contents.lnterfaces.csproj"
+              },
+              "C:\\ProyectoExamen\\Challenge\\Contents.Services\\Contents.Services.csproj": {
+                "projectPath": "C:\\ProyectoExamen\\Challenge\\Contents.Services\\Contents.Services.csproj"
+              },
               "C:\\ProyectoExamen\\Challenge\\ExceptionCategories\\ExceptionCategories.csproj": {
                 "projectPath": "C:\\ProyectoExamen\\Challenge\\ExceptionCategories\\ExceptionCategories.csproj"
               },
@@ -511,6 +520,306 @@
         }
       }
     },
+    "C:\\ProyectoExamen\\Challenge\\Content.Dtos\\Content.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProyectoExamen\\Challenge\\Content.Dtos\\Content.Dtos.csproj",
+        "projectName": "Content.Dtos",
+        "projectPath": "C:\\ProyectoExamen\\Challenge\\Content.Dtos\\Content.Dtos.csproj",
+        "packagesPath": "C:\\Users\\Jorge Velazquez\\.nuget\\packages\\",
+        "outputPath": "C:\\ProyectoExamen\\Challenge\\Content.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jorge Velazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.111\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProyectoExamen\\Challenge\\Contents.Infrastructure.Repositories\\Contents.Infrastructure.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProyectoExamen\\Challenge\\Contents.Infrastructure.Repositories\\Contents.Infrastructure.Repositories.csproj",
+        "projectName": "Contents.Infrastructure.Repositories",
+        "projectPath": "C:\\ProyectoExamen\\Challenge\\Contents.Infrastructure.Repositories\\Contents.Infrastructure.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Jorge Velazquez\\.nuget\\packages\\",
+        "outputPath": "C:\\ProyectoExamen\\Challenge\\Contents.Infrastructure.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jorge Velazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\ProyectoExamen\\Challenge\\Challenge.Entities\\Challenge.Entities.csproj": {
+                "projectPath": "C:\\ProyectoExamen\\Challenge\\Challenge.Entities\\Challenge.Entities.csproj"
+              },
+              "C:\\ProyectoExamen\\Challenge\\Content.Dtos\\Content.Dtos.csproj": {
+                "projectPath": "C:\\ProyectoExamen\\Challenge\\Content.Dtos\\Content.Dtos.csproj"
+              },
+              "C:\\ProyectoExamen\\Challenge\\Contents.lnterfaces\\Contents.lnterfaces.csproj": {
+                "projectPath": "C:\\ProyectoExamen\\Challenge\\Contents.lnterfaces\\Contents.lnterfaces.csproj"
+              },
+              "C:\\ProyectoExamen\\Challenge\\ExceptionContents\\ExceptionContents.csproj": {
+                "projectPath": "C:\\ProyectoExamen\\Challenge\\ExceptionContents\\ExceptionContents.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.111\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProyectoExamen\\Challenge\\Contents.lnterfaces\\Contents.lnterfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProyectoExamen\\Challenge\\Contents.lnterfaces\\Contents.lnterfaces.csproj",
+        "projectName": "Contents.lnterfaces",
+        "projectPath": "C:\\ProyectoExamen\\Challenge\\Contents.lnterfaces\\Contents.lnterfaces.csproj",
+        "packagesPath": "C:\\Users\\Jorge Velazquez\\.nuget\\packages\\",
+        "outputPath": "C:\\ProyectoExamen\\Challenge\\Contents.lnterfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jorge Velazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\ProyectoExamen\\Challenge\\Challenge.Entities\\Challenge.Entities.csproj": {
+                "projectPath": "C:\\ProyectoExamen\\Challenge\\Challenge.Entities\\Challenge.Entities.csproj"
+              },
+              "C:\\ProyectoExamen\\Challenge\\Content.Dtos\\Content.Dtos.csproj": {
+                "projectPath": "C:\\ProyectoExamen\\Challenge\\Content.Dtos\\Content.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.111\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProyectoExamen\\Challenge\\Contents.Services\\Contents.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProyectoExamen\\Challenge\\Contents.Services\\Contents.Services.csproj",
+        "projectName": "Contents.Services",
+        "projectPath": "C:\\ProyectoExamen\\Challenge\\Contents.Services\\Contents.Services.csproj",
+        "packagesPath": "C:\\Users\\Jorge Velazquez\\.nuget\\packages\\",
+        "outputPath": "C:\\ProyectoExamen\\Challenge\\Contents.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jorge Velazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\ProyectoExamen\\Challenge\\Contents.lnterfaces\\Contents.lnterfaces.csproj": {
+                "projectPath": "C:\\ProyectoExamen\\Challenge\\Contents.lnterfaces\\Contents.lnterfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.111\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\ProyectoExamen\\Challenge\\ExceptionCategories\\ExceptionCategories.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -519,6 +828,75 @@
         "projectPath": "C:\\ProyectoExamen\\Challenge\\ExceptionCategories\\ExceptionCategories.csproj",
         "packagesPath": "C:\\Users\\Jorge Velazquez\\.nuget\\packages\\",
         "outputPath": "C:\\ProyectoExamen\\Challenge\\ExceptionCategories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jorge Velazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.111\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProyectoExamen\\Challenge\\ExceptionContents\\ExceptionContents.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProyectoExamen\\Challenge\\ExceptionContents\\ExceptionContents.csproj",
+        "projectName": "ExceptionContents",
+        "projectPath": "C:\\ProyectoExamen\\Challenge\\ExceptionContents\\ExceptionContents.csproj",
+        "packagesPath": "C:\\Users\\Jorge Velazquez\\.nuget\\packages\\",
+        "outputPath": "C:\\ProyectoExamen\\Challenge\\ExceptionContents\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jorge Velazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Contents.lnterfaces\Contents.lnterfaces.csproj" />
+  </ItemGroup>
+
 </Project>

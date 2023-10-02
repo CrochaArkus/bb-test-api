@@ -18,7 +18,7 @@ namespace Challenge.Entities.Entities
         public bool delete { get; set; }
         [Required]
         public DateTime date_create { get; set; }
-        public DateTime date_update { get; set; }
-        public DateTime date_delete { get; set; }
+        public DateTime? date_update { get; set; }
+        public DateTime? date_delete { get; set; }
     }    
 }

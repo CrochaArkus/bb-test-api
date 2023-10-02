@@ -21,6 +21,9 @@
     <ProjectReference Include="..\Categories.lnterfaces\Categories.lnterfaces.csproj" />
     <ProjectReference Include="..\Categories.Services\Categories.Services.csproj" />
     <ProjectReference Include="..\Challenge.Entities\Challenge.Entities.csproj" />
+    <ProjectReference Include="..\Contents.Infrastructure.Repositories\Contents.Infrastructure.Repositories.csproj" />
+    <ProjectReference Include="..\Contents.lnterfaces\Contents.lnterfaces.csproj" />
+    <ProjectReference Include="..\Contents.Services\Contents.Services.csproj" />
     <ProjectReference Include="..\ExceptionCategories\ExceptionCategories.csproj" />
     <ProjectReference Include="..\ExceptionImages\ExceptionImages.csproj" />
     <ProjectReference Include="..\Image.Dtos\Image.Dtos.csproj" />

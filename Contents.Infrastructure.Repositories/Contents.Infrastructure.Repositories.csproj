@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Challenge.Entities\Challenge.Entities.csproj" />
+    <ProjectReference Include="..\Content.Dtos\Content.Dtos.csproj" />
+    <ProjectReference Include="..\Contents.lnterfaces\Contents.lnterfaces.csproj" />
+    <ProjectReference Include="..\ExceptionContents\ExceptionContents.csproj" />
+  </ItemGroup>
+
 </Project>

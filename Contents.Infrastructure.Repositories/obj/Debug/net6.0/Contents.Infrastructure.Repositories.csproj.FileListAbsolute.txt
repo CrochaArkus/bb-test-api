@@ -10,3 +10,12 @@ C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\obj\Debug\net6.
 C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\obj\Debug\net6.0\refint\Contents.Infrastructure.Repositories.dll
 C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\obj\Debug\net6.0\Contents.Infrastructure.Repositories.pdb
 C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\obj\Debug\net6.0\ref\Contents.Infrastructure.Repositories.dll
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\bin\Debug\net6.0\Challenge.Entities.dll
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\bin\Debug\net6.0\Content.Dtos.dll
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\bin\Debug\net6.0\Contents.lnterfaces.dll
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\bin\Debug\net6.0\ExceptionContents.dll
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\bin\Debug\net6.0\Challenge.Entities.pdb
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\bin\Debug\net6.0\Content.Dtos.pdb
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\bin\Debug\net6.0\Contents.lnterfaces.pdb
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\bin\Debug\net6.0\ExceptionContents.pdb
+C:\ProyectoExamen\Challenge\Contents.Infrastructure.Repositories\obj\Debug\net6.0\Contents.Infrastructure.Repositories.csproj.CopyComplete

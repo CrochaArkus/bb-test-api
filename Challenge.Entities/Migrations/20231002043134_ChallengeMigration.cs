@@ -36,8 +36,8 @@ namespace Challenge.Entities.Migrations
                     unLocked = table.Column<bool>(type: "bit", nullable: false),
                     delete = table.Column<bool>(type: "bit", nullable: false),
                     date_create = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    date_update = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    date_delete = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    date_update = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    date_delete = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -84,6 +84,22 @@ namespace Challenge.Entities.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "magnamentContentCategory",
+                columns: table => new
+                {
+                    id_magnament_content_categories = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    id_content = table.Column<int>(type: "int", nullable: false),
+                    id_categories = table.Column<int>(type: "int", nullable: false),
+                    id_subcategories = table.Column<int>(type: "int", nullable: false),
+                    id_interior_subcategories = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_magnamentContentCategory", x => x.id_magnament_content_categories);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "subCategory",
                 columns: table => new
                 {
@@ -123,6 +139,9 @@ namespace Challenge.Entities.Migrations
 
             migrationBuilder.DropTable(
                 name: "interiorSubCategory");
+
+            migrationBuilder.DropTable(
+                name: "magnamentContentCategory");
 
             migrationBuilder.DropTable(
                 name: "subCategory");

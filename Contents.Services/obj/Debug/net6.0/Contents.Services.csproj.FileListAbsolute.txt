@@ -10,3 +10,10 @@ C:\ProyectoExamen\Challenge\Contents.Services\obj\Debug\net6.0\Contents.Services
 C:\ProyectoExamen\Challenge\Contents.Services\obj\Debug\net6.0\refint\Contents.Services.dll
 C:\ProyectoExamen\Challenge\Contents.Services\obj\Debug\net6.0\Contents.Services.pdb
 C:\ProyectoExamen\Challenge\Contents.Services\obj\Debug\net6.0\ref\Contents.Services.dll
+C:\ProyectoExamen\Challenge\Contents.Services\bin\Debug\net6.0\Challenge.Entities.dll
+C:\ProyectoExamen\Challenge\Contents.Services\bin\Debug\net6.0\Content.Dtos.dll
+C:\ProyectoExamen\Challenge\Contents.Services\bin\Debug\net6.0\Contents.lnterfaces.dll
+C:\ProyectoExamen\Challenge\Contents.Services\bin\Debug\net6.0\Contents.lnterfaces.pdb
+C:\ProyectoExamen\Challenge\Contents.Services\bin\Debug\net6.0\Challenge.Entities.pdb
+C:\ProyectoExamen\Challenge\Contents.Services\bin\Debug\net6.0\Content.Dtos.pdb
+C:\ProyectoExamen\Challenge\Contents.Services\obj\Debug\net6.0\Contents.Services.csproj.CopyComplete

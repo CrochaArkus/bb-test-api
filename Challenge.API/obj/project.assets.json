@@ -936,6 +936,59 @@
           "bin/placeholder/Challenge.Entities.dll": {}
         }
       },
+      "Content.Dtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Content.Dtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Content.Dtos.dll": {}
+        }
+      },
+      "Contents.Infrastructure.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Challenge.Entities": "1.0.0",
+          "Content.Dtos": "1.0.0",
+          "Contents.lnterfaces": "1.0.0",
+          "ExceptionContents": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Contents.Infrastructure.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contents.Infrastructure.Repositories.dll": {}
+        }
+      },
+      "Contents.lnterfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Challenge.Entities": "1.0.0",
+          "Content.Dtos": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Contents.lnterfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contents.lnterfaces.dll": {}
+        }
+      },
+      "Contents.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Contents.lnterfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Contents.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contents.Services.dll": {}
+        }
+      },
       "ExceptionCategories/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -944,6 +997,16 @@
         },
         "runtime": {
           "bin/placeholder/ExceptionCategories.dll": {}
+        }
+      },
+      "ExceptionContents/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ExceptionContents.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExceptionContents.dll": {}
         }
       },
       "ExceptionImages/1.0.0": {
@@ -2380,10 +2443,35 @@
       "path": "../Challenge.Entities/Challenge.Entities.csproj",
       "msbuildProject": "../Challenge.Entities/Challenge.Entities.csproj"
     },
+    "Content.Dtos/1.0.0": {
+      "type": "project",
+      "path": "../Content.Dtos/Content.Dtos.csproj",
+      "msbuildProject": "../Content.Dtos/Content.Dtos.csproj"
+    },
+    "Contents.Infrastructure.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../Contents.Infrastructure.Repositories/Contents.Infrastructure.Repositories.csproj",
+      "msbuildProject": "../Contents.Infrastructure.Repositories/Contents.Infrastructure.Repositories.csproj"
+    },
+    "Contents.lnterfaces/1.0.0": {
+      "type": "project",
+      "path": "../Contents.lnterfaces/Contents.lnterfaces.csproj",
+      "msbuildProject": "../Contents.lnterfaces/Contents.lnterfaces.csproj"
+    },
+    "Contents.Services/1.0.0": {
+      "type": "project",
+      "path": "../Contents.Services/Contents.Services.csproj",
+      "msbuildProject": "../Contents.Services/Contents.Services.csproj"
+    },
     "ExceptionCategories/1.0.0": {
       "type": "project",
       "path": "../ExceptionCategories/ExceptionCategories.csproj",
       "msbuildProject": "../ExceptionCategories/ExceptionCategories.csproj"
+    },
+    "ExceptionContents/1.0.0": {
+      "type": "project",
+      "path": "../ExceptionContents/ExceptionContents.csproj",
+      "msbuildProject": "../ExceptionContents/ExceptionContents.csproj"
     },
     "ExceptionImages/1.0.0": {
       "type": "project",
@@ -2418,6 +2506,9 @@
       "Categories.Services >= 1.0.0",
       "Categories.lnterfaces >= 1.0.0",
       "Challenge.Entities >= 1.0.0",
+      "Contents.Infrastructure.Repositories >= 1.0.0",
+      "Contents.Services >= 1.0.0",
+      "Contents.lnterfaces >= 1.0.0",
       "ExceptionCategories >= 1.0.0",
       "ExceptionImages >= 1.0.0",
       "Image.Dtos >= 1.0.0",
@@ -2470,6 +2561,15 @@
             },
             "C:\\ProyectoExamen\\Challenge\\Challenge.Entities\\Challenge.Entities.csproj": {
               "projectPath": "C:\\ProyectoExamen\\Challenge\\Challenge.Entities\\Challenge.Entities.csproj"
+            },
+            "C:\\ProyectoExamen\\Challenge\\Contents.Infrastructure.Repositories\\Contents.Infrastructure.Repositories.csproj": {
+              "projectPath": "C:\\ProyectoExamen\\Challenge\\Contents.Infrastructure.Repositories\\Contents.Infrastructure.Repositories.csproj"
+            },
+            "C:\\ProyectoExamen\\Challenge\\Contents.lnterfaces\\Contents.lnterfaces.csproj": {
+              "projectPath": "C:\\ProyectoExamen\\Challenge\\Contents.lnterfaces\\Contents.lnterfaces.csproj"
+            },
+            "C:\\ProyectoExamen\\Challenge\\Contents.Services\\Contents.Services.csproj": {
+              "projectPath": "C:\\ProyectoExamen\\Challenge\\Contents.Services\\Contents.Services.csproj"
             },
             "C:\\ProyectoExamen\\Challenge\\ExceptionCategories\\ExceptionCategories.csproj": {
               "projectPath": "C:\\ProyectoExamen\\Challenge\\ExceptionCategories\\ExceptionCategories.csproj"
